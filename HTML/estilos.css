@@ -1,0 +1,26 @@
+body{
+	color: blue;
+}
+h1{
+    color: green;
+}
+
+td {
+			border: 1px solid rgb(11, 94, 218);
+			padding: 0.1em 1em;
+		}
+ul, ol {
+	color: green;
+	font-size: 24px;
+}	
+li{
+	color: blue;
+	font-size: 20px;
+}
+
+.joy{
+	color:saddlebrown;
+}
+.division{
+	color: yellowgreen;
+}

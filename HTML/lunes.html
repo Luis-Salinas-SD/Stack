@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lunes</title>
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+</head>
+<body bgcolor="orange">
+<h1>¡Bienvenidos HTML Principiantes!</h1>
+<h3>A continuacion se presentan varios temas relacionado a HTML</h3>
+<p>
+ “HTML es un lenguaje de marcado que se utiliza para el desarrollo de páginas de Internet. Se trata de la siglas que corresponden a HyperText Markup Language, es decir, Lenguaje de Marcas de Hipertexto
+</p>
+<h1>Listas</h1>
+<!-- Lista Desordenada-->
+<ul> Lista Desordenada <br>
+	<li>Abarth.</li>
+	<li>Alfa Romeo.</li>
+	<li>Alpine.</li>
+	<li>Aston Martin.</li>
+	<li>Audi.</li>
+	<li>Bentley.</li>
+	<li>BMW.</li>
+	<li>Bugatti.</li>
+</ul>
+<!-- Lista Ordenada -->
+<ol> Lista Ordenada <br> 
+	<li>Abarth.</li>
+	<li>Alfa Romeo.</li>
+	<li>Alpine.</li>
+	<li>Aston Martin.</li>
+	<li>Audi.</li>
+	<li>Bentley.</li>
+	<li>BMW.</li>
+	<li>Bugatti.</li>
+</ol>
+
+
+<h1>Enlaces</h1>
+
+<a href="https://jsbin.com/?html,output">Click aqui <br> <br> </a> 
+
+<img src="img/Fondo.jpg" width="50%" height="50%" alt="Hola">
+
+<h1>Tablas </h1>
+
+<table>
+    <tr> <!-- columnas -->
+        <td>Lunes</td> <!-- Filas -->
+        <td>Martes</td>
+        <td>Miercoles</td>
+		<td>Jueves</td>
+		<td>Viernes</td>
+		<td>Sabado</td>
+		<td>Domingo</td>
+    </tr>
+    <tr>
+        <td>7:00 - 9:00</td>
+    </tr>
+    <tr>
+    	<td>9:00 - 10:00</td>
+    </tr>
+    <tr>
+    	<td>10:00 - 12:00</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>Row 1, cell 1</td>
+        <td>Row 1, cell 2</td>
+        <td>Row 1, cell 3</td>
+    </tr>
+    <tr>
+        <td>Row 2, cell 1</td>
+        <td>Row 2, cell 2</td>
+        <td>Row 2, cell 3</td>
+    </tr>
+    <tr>
+        <td>Row 3, cell 1</td>
+        <td>Row 3, cell 2</td>
+        <td>Row 3, cell 3</td>
+    </tr>
+    <tr>
+        <td>Row 4, cell 1</td>
+        <td>Row 4, cell 2</td>
+        <td>Row 4, cell 3</td>
+    </tr>
+
+</table> <br>
+<h1>Formularios</h1>
+<fieldset>
+<form action="prueba.php" method="post">
+    user: <input type="text" name="name" placeholder="usuario"> <br> <br>
+    password: <input type="password" name="pass" placeholder="contraseña"> <br> <br>
+    checkbox: <input type="checkbox" name="check" value="checkbox" checked=""> <br> <br>
+
+    edad: <br> <br>
+    18 <input type="radio" name="18" checked>
+    20 <input type="radio" name="20">
+    <br> <br>
+    Descripcion: <br>
+    <textarea name="" id="" cols="100" rows="5"> Escribe tu Descripcion aqui </textarea>
+<br>
+
+    Selecciona una auto<select>
+    	<option value=""> Camaro</option>
+        <option value=""> Bocho</option>
+        <option value=""> Ferrari</option>
+    </select>
+<br>
+</fieldset>
+</form>
+<br>
+<form action="someplace.php" method="post" enctype="multipart/form-data">
+    <fieldset>
+        <legend>Subir Archivoooo</legend>
+       <!-- <label for="uploadfile">Nombre del Archivo</label> -->
+        <input type="file" name="uploadfile" id="uploadfile">
+    </fieldset>
+</form>
+
+<div class="joy">
+   <p>Hola este es un texto normal</p> 
+   <p>Hola este es un texto con <span class="division">span</span></p>
+
+</div>
+
+<h1>Value </h1>
+<ol>
+  <li value="20">Coffee</li> <!-- el atributo value funciona como ciclo -->
+  <li>Tea</li>
+  <li>Milk</li>
+  <li>Water</li>
+  <li>Juice</li>
+  <li>Beer</li>
+</ol>
+
+</body>
+</html>

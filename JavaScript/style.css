@@ -1,0 +1,17 @@
+body{
+    background: #34495E;
+    
+}
+fieldset{
+    border-color: rgb(50, 240, 208);
+    border-width: 10px;
+}
+#titulo{
+    color: rgb(101, 186, 255);
+    font-size: 25px;
+}
+
+#txt{
+    color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
