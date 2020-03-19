@@ -11,3 +11,11 @@ while(numero <10){
 for (var i = 1; i <= 15; i++) {
       alert(i);
 }
+
+/*
+let num =0;
+do {
+   console.log(num);
+  num ++
+} while (num <= 5); 
+*/
