@@ -1,5 +1,5 @@
-/* +++++++++ en una funcion imprime un numero del 0 hasta el que el usuario quiere.
-
+//! En una funcion imprime un numero del 0 hasta el que el usuario quiere.
+/*
 var num = prompt("introduce un numero");
 
 function cuenta(num){
@@ -8,17 +8,39 @@ function cuenta(num){
     }
  }cuenta(num);
 */
-/* Funcion que convierte cadenas con minusculas a cadenas con mayusculas
-var nom = prompt("Ingresa tu nombre");
+//? Funcion que convierte cadenas con minusculas a cadenas con mayusculas
+
+/* var nom = prompt("Ingresa tu nombre");
 
 function NombreMayus(){
 nombre = nom.toUpperCase()
 document.write(nombre)
-}NombreMayus()
-*/
+}NombreMayus() */
 
-function cuadrado(numero) {
+//! Funcion que calcula el cuadrado de una funcion
+/* function cuadrado(numero) {
     return numero * numero;
 }
-let valor = cuadrado(2);
-console.log(valor);
+console.log( cuadrado(5)) */
+
+
+//? Funcion dentro de otra Funcion
+/* function accion(hablar) {
+hablar();
+}
+
+function decirHola() {
+    console.log("hola amicos")
+}
+accion(decirHola);
+
+
+//?o
+
+function accion(hablar) {
+    hablar();
+    }
+
+    accion(function decirHola(){
+        console.log("hola amicos como estan");
+    }); */
