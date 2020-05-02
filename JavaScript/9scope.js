@@ -15,6 +15,6 @@ function hola() {
 
 /*
 //*CONST: Es una constante la cual NO cambiara su valor en ningún momento en el futuro.
-//*VAR: Es una variable que SI puede cambiar su valor y su scope es local.
-//*LET: Es una variable que también podrá cambiar su valor, pero solo funcionará en el bloque donde fue declarada(ciclos o  condiciones).
+//*VAR: Es una variable que SI puede cambiar su valor y su scope es local (dentro de una función o del bloque global).
+//*LET: Es una variable que también podrá cambiar su valor, pero solo funcionará en el bloque donde fue declarada (ciclos o  condiciones) su alcance es mucho menor que var.
 */

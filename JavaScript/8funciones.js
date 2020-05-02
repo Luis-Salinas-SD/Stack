@@ -25,6 +25,7 @@ console.log( cuadrado(5)) */
 
 
 //? Funcion dentro de otra Funcion
+
 /* function accion(hablar) {
 hablar();
 }
@@ -32,12 +33,12 @@ hablar();
 function decirHola() {
     console.log("hola amicos")
 }
-accion(decirHola);
+accion(decirHola); */
 
 
 //?o
 
-function accion(hablar) {
+/* function accion(hablar) {
     hablar();
     }
 
