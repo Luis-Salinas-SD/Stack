@@ -1,15 +1,13 @@
-//Operaciones aritmeticas basicas.
+//# Operaciones aritmeticas basicas.
 let suma = 2+2;
 let resta = 2-2;
 let division = 10/2;
 let mult = 2*2;
-let resi = %2 //*Residuo
-console.log(resi);
+let resi = 9%2; //* residuo
 
+//# Libreria Math para ejecuta operaciones más complejas.
 
-/* Libreria Math para ejecuta operaciones más complejas.*/
-
-//rretornar el valor de pi:
+//retornar el valor de pi:
 Math.PI
 
 // 3.141592653589793

@@ -5,7 +5,7 @@ class nombreClase{
     //!Constructor
     constructor(titulo){
     this.titulo = titulo;
-    } 
+    }
 
 
     //!Metodo
@@ -14,7 +14,7 @@ class nombreClase{
     }
 }
 
-let obj = new nombreClase(); 
+let obj = new nombreClase();
 let objeto = new  nombreClase("curso nuevo");
 
 obj.inscribir("Luis ")
