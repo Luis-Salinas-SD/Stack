@@ -1,7 +1,7 @@
-//Operadores Lógicos
+//# Operadores Lógicos
 
-//Operador ++++++++++++++++++++++++++++++++++++++++++ AND +++++++++++++++++++++++++++++++++++++++++++++++++++
-//EN EL OPERADOR AND AMBAS CONDICIONES DEBEN SER VERDADERAS(TRUE) DE LO CONTRARIO RETORNA UN VALOR (FALSE)
+//*++++++++++++++++++++++++++++++++++++++++++++++++++ AND +++++++++++++++++++++++++++++++++++++++++++++++++++++
+//# EN EL OPERADOR AND AMBAS CONDICIONES DEBEN SER VERDADERAS(TRUE) DE LO CONTRARIO RETORNA UN VALOR (FALSE)
 if(24 === 24 && "hola" === "hola"){
     alert(true);
   }else{
@@ -16,8 +16,8 @@ if(24 === 24 && "hola" === 13){
   }
   // false
 
-//Operador ++++++++++++++++++++++++++++++++++++++++++ OR +++++++++++++++++++++++++++++++++++++++++++++++++++
-//EN EL OPERADOR OR SOLO UNA CONDICION DEBE SER VERDADERA
+//! Operador ++++++++++++++++++++++++++++++++++++++++++ OR +++++++++++++++++++++++++++++++++++++++++++++++++++++
+//# EN EL OPERADOR OR SOLO UNA CONDICION DEBE SER VERDADERA
 
 if(24 === 24 || "hola" === "hola"){
     alert(true);
@@ -33,7 +33,7 @@ if(24 === 24 || "hola" === "ADIOS"){
   }
   //FALSE
 
-  //Operador ++++++++++++++++++++++++++++++++++++++++++ NOT +++++++++++++++++++++++++++++++++++++++++++++++++++
-  //sirve para negar una condicion verdadera con el simbolo !
+  //$ ++++++++++++++++++++++++++++++++++++++++++++++++ NOT +++++++++++++++++++++++++++++++++++++++++++++++++++++
+  //# sirve para negar una condicion verdadera con el simbolo !
 !(25 === 25) || (10 < 5)
 //false

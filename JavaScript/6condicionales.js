@@ -1,4 +1,4 @@
-//condicional IF
+//# condicional IF
 if(24 === 24 || "hola" === "hola"){
     alert(true);
   }else{
@@ -6,6 +6,7 @@ if(24 === 24 || "hola" === "hola"){
   }
   //true
 
+//! Condicional if()else
  let nota = 10;
  if (nota = 7) {
      console.log("malo");

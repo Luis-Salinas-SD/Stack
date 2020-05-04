@@ -1,6 +1,6 @@
 // Los booleanos solo retornar un valor true o false
 
-let booleano = new Boolean(0);
+let booleano = new Boolean(false);
 console.log(booleano.toString());
 
 //valores que retornan un valor falos son:
