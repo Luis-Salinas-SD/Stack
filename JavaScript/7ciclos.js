@@ -14,10 +14,14 @@ do {
 
 //$ciclo while
 
-var numero = 1;
+/* var numero = 1;
 while(numero <10){
 //   alert(numero);
    numero = numero + 1;
 console.log(numero);
 
-}
+} */
+
+var edad = prompt("Dime tu edad");
+var num = parseInt(edad, 10);
+ console.log(num);
