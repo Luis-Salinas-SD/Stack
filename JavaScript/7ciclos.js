@@ -9,7 +9,7 @@
             console.log(i);
       }
 } */
-//!continue
+//!continue  = ignora la sentencia
 //# no imprimir los multiplos de 7
 /* for (let i = 0; i < 50; i++) {
       if ((i % 7) === 0) {
@@ -18,9 +18,9 @@
       console.log(i);
 } */
 
-//! breake
+//! breake =
 //# romper el ciclo despues de llegue a 5
-var n = 0;
+/* var n = 0;
 for (let i = 0; i < 50; i++) {
       if ((i % 7) === 0) {
             console.log(i);
@@ -29,7 +29,7 @@ for (let i = 0; i < 50; i++) {
 if (n >= 5){
       break
 }
-}
+} */
 //$ ++++++++++++++++++++++++++++++++++++++++++++++ Ciclo DO-WHILE +++++++++++++++++++++++++++++++++++++++++++++++
 
 /* let num =0;
@@ -69,3 +69,10 @@ var num = parseInt(edad, 10);
        alert("tienes que colocar un numero del 1 al 3")
        break;
  } */
+
+for (let i = 0; i < 10; i++) {
+      if ((i%5) === 0) {
+            continue
+      }
+      console.log(i);
+}
