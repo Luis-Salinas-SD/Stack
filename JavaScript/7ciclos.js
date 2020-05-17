@@ -18,6 +18,15 @@
       console.log(i);
 } */
 
+/*
+for (let i = 0; i < 10; i++) {
+      if ((i%5) === 0) {
+            continue
+      }
+      console.log(i);
+} 
+*/
+
 //! breake =
 //# romper el ciclo despues de llegue a 5
 /* var n = 0;
@@ -39,14 +48,17 @@ do {
 } while (num <= 5); */
 
 //$ ++++++++++++++++++++++++++++++++++++++++++++++ Ciclo WHILE +++++++++++++++++++++++++++++++++++++++++++++++++
-
-/* var numero = 1;
-while(numero <10){
+//!Ceunta regresiva del 10 al 0
+/*  var numero = 11;
+while(numero <=10){
 //   alert(numero);
-   numero = numero + 1;
+   numero--
 console.log(numero);
+if (numero === 0){
+break;
+}
+}  */
 
-} */
 //!Ejercicio:
 /*var edad = prompt("Dime tu edad");
 var num = parseInt(edad, 10);
@@ -69,10 +81,3 @@ var num = parseInt(edad, 10);
        alert("tienes que colocar un numero del 1 al 3")
        break;
  } */
-
-for (let i = 0; i < 10; i++) {
-      if ((i%5) === 0) {
-            continue
-      }
-      console.log(i);
-}
