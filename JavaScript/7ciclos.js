@@ -40,12 +40,18 @@ if (n >= 5){
 }
 } */
 //$ ++++++++++++++++++++++++++++++++++++++++++++++ Ciclo DO-WHILE +++++++++++++++++++++++++++++++++++++++++++++++
-
+//!numeros del uno al 5
 /* let num =0;
 do {
    console.log(num);
   num ++
 } while (num <= 5); */
+//!mini login (solo logica)
+/* var password = 'Luis'
+var pas
+do {
+    var pas = prompt("Constraseña");
+} while (password !== pas); */
 
 //$ ++++++++++++++++++++++++++++++++++++++++++++++ Ciclo WHILE +++++++++++++++++++++++++++++++++++++++++++++++++
 //!Ceunta regresiva del 10 al 0
