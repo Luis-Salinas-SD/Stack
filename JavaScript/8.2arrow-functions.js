@@ -1,11 +1,20 @@
 //# Funcion convensional
 /* function suma(a,b) {
     return a+b;
-
 }console.log(suma(5,5)); */
-//# Funcion con [Array-Functions]
+//# Funcion con [arrow-Functions]
 /*  suma = (a,b)=> a + b
- console.log(suma(6,6)); */
+ console.log(suma(6,6)); 
+ */
+//!arrow-function
+/* var n = prompt("introduce el numero:");
+
+cuenta = (n) => {
+    for (i = 0; i <= n; i++) {
+        document.writeln(i);
+    }
+}
+cuenta(n) */
 
 //#Funcion arrow-en el contexto
 /*  let tutor = {

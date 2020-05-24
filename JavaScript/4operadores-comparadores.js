@@ -1,7 +1,7 @@
 var igual;
-igual = 1 === 1; //true
-
-var igual;
+igual = 0 == 0 //true
+alert(igual);
+/* var igual;
 igual= ('a' === 'a'); //true
 
 var desigual;
@@ -11,4 +11,4 @@ var mayor;
 mayor = (6 >= 6); //true
 
 var menor;
-menor = (6 <=6 ); //true
+menor = (6 <=6 ); //true */

@@ -1,3 +1,6 @@
+//* Declaracion de una funcion
+
+
 //! En una funcion imprime un numero del 0 hasta el que el usuario quiere.
 
 /* var num = prompt("introduce un numero");
@@ -25,7 +28,6 @@ console.log(nombre);
 }
 console.log( cuadrado(5)); */
 
-
 //? Funcion dentro de otra Funcion
 
 /* function accion(hablar) {
@@ -37,14 +39,13 @@ function decirHola() {
 }
 accion(decirHola); */
 
+//? ó
 
-//?o
-
-function accion(hablar) {
+/* function accion(hablar) {
 hablar()
 }
 
 accion(function decirHola(){
     console.log("hola amicos como estan");
     }
-);
+); */
