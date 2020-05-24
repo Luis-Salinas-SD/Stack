@@ -28,7 +28,7 @@ console.log(nombre);
 }
 console.log( cuadrado(5)); */
 
-//? Funcion dentro de otra Funcion
+//? Funcion dentro de otra Funcion // closure
 
 /* function accion(hablar) {
 hablar();
