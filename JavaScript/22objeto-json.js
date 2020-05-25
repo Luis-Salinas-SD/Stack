@@ -22,4 +22,4 @@ console.log(video.titulo); */
 //* Editar alguna metodo de nuestro objeto
 /* video.inscribir = function () {
 console.log("hola soy la funcion editada");
-}
+}*/
