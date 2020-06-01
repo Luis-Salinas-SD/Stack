@@ -1,13 +1,13 @@
 body{
     background: #34495E;
-    
+
 }
 fieldset{
-    border-color: rgb(50, 240, 208);
+    border-color: rgb(106, 247, 160);
     border-width: 10px;
 }
 #titulo{
-    color: rgb(101, 186, 255);
+    color: rgb(255, 241, 51);
     font-size: 25px;
 }
 
