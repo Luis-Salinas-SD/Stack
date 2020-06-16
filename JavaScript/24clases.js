@@ -1,5 +1,4 @@
 //# Como definir una clase
-
 class nombreClase{
 
     //!Constructor

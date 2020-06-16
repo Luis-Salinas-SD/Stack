@@ -1,34 +1,53 @@
 
 body{
-    background:orange; /*fondo*/
+    background:#34495E; /*fondo*/
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold; /* se utiliza para agregar negritas */
     font-style: oblique; /* indicica si el fondo esta en cursiva  recibe tres valores [italic, oblique]*/
-    text-decoration: underline; /*indica si el texto tiene una línea que se ejecuta debajo, sobre o a través de él recibe tres valores [overline, line-through] */
+    /* text-decoration: underline; /*indica si el texto tiene una línea que se ejecuta debajo, sobre o a través de él recibe tres valores [overline, line-through] */
     text-transform: capitalize;
+    color: ivory;
 }
 
 #uno { /* id */
-      background: black;
-      font-size: 25px;
-      color: white;
+    background: black;
+    font-size: 25px;
+    color: white;
     /*font-size: 2em;*/
 }
 .dos {/* class*/
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    background: coral;
+    background: rgb(79, 175, 60);
     font-size: 29px;
+    border: wheat solid;
 }
 h6, .pading{
     font-size: 30px;
-    background-color: bisque;
+    background-color: rgb(53, 102, 105);
     margin: 10px;
     padding: 30px;
     text-align: center;
     border-style: double;
     border-width: 15px;
-    border-color: purple;
+    border-color: rgb(213, 245, 71);
     border-radius: 10px;
     border-collapse: separate;
     }
+
+    .parrafo > p:first-line {
+        color: rgb(61, 216, 131);
+    }
+
+    .field {
+        color: rgb(61, 216, 131);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.2em;
+    }
+.contact-form__input{
+    margin: 0.5%;
+}
+.contact-form__input--active{
+    color: rgb(243, 116, 31);
+    margin: 0.5%;
+}

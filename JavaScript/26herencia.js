@@ -31,7 +31,7 @@ class YouTube extends Repro{
 
    }
    duraction(){
-       console.log("4 minutos");
+    console.log("4 minutos");
    }*/
     open(){
         this.redirectToYoutTube(this.video);
