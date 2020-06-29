@@ -24,16 +24,15 @@ let array = [50, 53, 100, 45];
 //# agregar y quitar elementos de un arreglo en una posicion personalizada:
 let names = ["luis", "ana", "dan", "sergio", "luchita", "concha"];
 //             0       1     2        3         4           5
-//!splice(#indice en el que se agrgaran, #cantidad de elemento que se van a eliminar #valores que se van a aregar 1,2,3...)
+//!splice(#indice en el que se agrgaran, #cantidad de elementos que se van a eliminar #valores que se van a aregar 1,2,3...)
 
-//!Agrega los valores juan y lola en la posicion 3
-//names.splice(3,0, 5, 8);
+names.splice(0, 0, 'Junico', 1);
+console.log(names);
 
 //!Elimina el valor o valores en la poscicon descrita en este caso eliminaos 3 elementos en la poscion 3
 //names.splice(0,3);
 //console.log(names);
 
-//! Slice extrae en un nuevo array los valores desde [starat] hasta [end -1]: No modifia el array original.
-
-let nuevo = names.slice(1,3);
-console.log(nuevo);
+//! Slice extrae en un nuevo array los valores desde [start] hasta [end -1]: No modifia el array original.
+//let nuevo = names.slice(1,3);
+//console.log(nuevo);
