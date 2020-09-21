@@ -1,12 +1,18 @@
 
 body{
     background:#34495E; /*fondo*/
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold; /* se utiliza para agregar negritas */
     font-style: oblique; /* indicica si el fondo esta en cursiva  recibe tres valores [italic, oblique]*/
     /* text-decoration: underline; /*indica si el texto tiene una línea que se ejecuta debajo, sobre o a través de él recibe tres valores [overline, line-through] */
     text-transform: capitalize;
     color: ivory;
+    margin: 0;
+}
+p{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 #uno { /* id */
@@ -63,4 +69,35 @@ h6, .pading{
     background-color: rgb(87, 123, 177);
     font-weight: normal;   /* grosor de la letra */
     width: 50%;
+    height: 30px;
+}
+/* ################################################################# POSISIONAMIENTO ################################################################# */
+
+section.positionn > div{
+    width: 100px;
+    height: 100px;
+    display: block;
+    color: white;
+}
+.caja1{
+    background: rgb(78, 175, 86);
+    position: relative;
+    top: 10px;
+}
+.caja2{
+    background: rgb(72, 134, 163);
+top: 800px;
+}
+.caja3{
+    background: rgb(58, 161, 122);
+
+}
+.caja4{
+    background: rgb(160, 32, 81);
+    }
+.caja5{
+    background: rgb(26, 173, 179);
+}
+.dspl{
+    margin: 0;
 }

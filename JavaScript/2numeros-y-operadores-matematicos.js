@@ -1,10 +1,10 @@
 //# Operaciones aritmeticas basicas.
-let suma = 2+2;
-let resta = 2-2;
-let division = 10/2;
-let mult = 2*2;
-let resi = 9%2; //* residuo
-let cuad = 2**3; //* 8
+let suma = 2+2; //4
+let resta = 2-2; //0
+let division = 10/2; //5
+let mult = 2*2; //4
+let resi = 9%2; // residuo
+let cuad = 2**3; // 8
 console.log(cuad);
 
 
