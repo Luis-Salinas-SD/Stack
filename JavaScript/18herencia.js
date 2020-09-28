@@ -2,16 +2,16 @@
 
 //? Definir clase bas o clase PADRE
 class Repro {
-    play(nombre){
+    play(nombre) {
         console.log("Reporduce el video " + nombre);
 
     }
-    duraction(){
+    duraction() {
         console.log("4 minutos");
     }
 
 }
-class Vimeo extends Repro{
+class Vimeo extends Repro {
     //!Metodo
     /* play(){
         console.log("Reporduce un video");
@@ -20,25 +20,25 @@ class Vimeo extends Repro{
     duraction(){
         console.log("4 minutos");
     } */
-    open(){
+    open() {
         this.redirectToVimeo(this.video);
     }
 }
+/*
+class YouTube extends Repro {
+    play() {
+        console.log("Reporduce un video");
 
-class YouTube extends Repro{
-   /* play(){
-       console.log("Reporduce un video");
-
-   }
-   duraction(){
-    console.log("4 minutos");
-   }*/
-    open(){
+    }
+    duraction() {
+        console.log("4 minutos");
+    }
+    open() {
         this.redirectToYoutTube(this.video);
     }
 
 }
-
+*/
 
 let vid = new YouTube();
 vid.play(2);
