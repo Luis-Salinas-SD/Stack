@@ -1,4 +1,0 @@
-var name = "Hola Mundo"
-
-r = name.reverse()
-console.log(r);
