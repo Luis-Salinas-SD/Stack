@@ -24,7 +24,7 @@ for (let i = 0; i < 10; i++) {
             continue
       }
       console.log(i);
-} 
+}
 */
 
 //! breake =
@@ -41,49 +41,56 @@ if (n >= 5){
 } */
 //$ ++++++++++++++++++++++++++++++++++++++++++++++ Ciclo DO-WHILE +++++++++++++++++++++++++++++++++++++++++++++++
 //!numeros del uno al 5
-/* let num =0;
+/*
+let num = 0;
 do {
-   console.log(num);
-  num ++
-} while (num <= 5); */
+      console.log(num);
+      num++
+} while (num <= 5);
+*/
 //!mini login (solo logica)
-/* var password = 'Luis'
+/*
+var password = 'Luis'
 var pas
 do {
-    var pas = prompt("Constraseña");
-} while (password !== pas); */
-
+      var pas = prompt("Constraseña");
+} while (password !== pas);
+*/
 //$ ++++++++++++++++++++++++++++++++++++++++++++++ Ciclo WHILE +++++++++++++++++++++++++++++++++++++++++++++++++
 //!Ceunta regresiva del 10 al 0
-/*  var numero = 11;
-while(numero <=10){
-//   alert(numero);
-   numero--
-console.log(numero);
-if (numero === 0){
-break;
+/*
+var numero = 11;
+while (numero <= 10) {
+      //   alert(numero);
+      numero--
+      console.log(numero);
+      if (numero === 0) {
+            break;
+      }
 }
-}  */
-
+*/
 //!Ejercicio:
-/*var edad = prompt("Dime tu edad");
+/*
+var edad = prompt("Dime tu edad");
 var num = parseInt(edad, 10);
- console.log(num);*/
+console.log(num);
+*/
+//$ +++++++++++++++++++++++++++++++++++++++++++++++++ SWITCH ++++++++++++++++++++++++++++++++++++++++++++++++++
+/*
+var answer = prompt("Dame un numero del 1 al 3")
+switch (answer) {
+      case '1':
+            alert("Bad Bunny");
+            break;
+      case '2':
+            alert("50 cent");
+            break;
+      case '3':
+            alert("Maluma");
+            break
 
- //$ +++++++++++++++++++++++++++++++++++++++++++++++++ SWITCH ++++++++++++++++++++++++++++++++++++++++++++++++++
-/* var answer = prompt("Dame un numero del 1 al 3")
- switch (answer) {
-    case '1':
-         alert("Bad Bunny");
-         break;
-   case '2':
-         alert("50 cent");
-         break;
-   case '3':
-      alert("Maluma");
-      break
-
-    default:
-       alert("tienes que colocar un numero del 1 al 3")
-       break;
- } */
+      default:
+            alert("tienes que colocar un numero del 1 al 3")
+            break;
+}
+*/
